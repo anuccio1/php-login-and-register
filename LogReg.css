@@ -1,0 +1,71 @@
+ 
+/** login box **/
+div#login {
+	color:white;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-left: 5px;
+	width:550px;
+	height:200px;
+}
+
+#register {
+	color:white;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width:600px;
+	height:430px;
+}
+
+div#mainbox {
+	padding-top: 30px;
+	font-family: sans-serif, courier, Georgia;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+	width:900px;
+}
+#wronglogin{
+	color:#FF0000;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.regfield {
+	font-weight: bold;
+	width:250px;
+	margin-bottom:8px;
+	float: left;
+	clear: left;
+	text-align: right;
+}
+.formfield {
+	font-weight: normal;
+	margin-bottom:8px;
+	display: block;
+	width: 300px;
+	float: left;
+	text-align: left;
+}
+input#submit {
+	clear:both;
+	font-weight: bold;
+	margin: 10px auto;
+}
+strong{
+	font-size: 18pt;
+}
+label{
+	font-weight: bold;
+	width:150px;
+	margin-bottom:12px;
+	float: left;
+	clear: left;
+	text-align: right;
+	margin-right: 10px;
+}
+

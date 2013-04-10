@@ -1,0 +1,138 @@
+ /** Entire website */
+ body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin:0;
+	/**min-width: 1000px; */
+	font-family: georgia;
+	font-size: 10pt;
+ }
+ /** Title bar */
+ div#title {
+	color: white;
+	background-color: #1F1AB2;
+	border: 1px solid black;
+	margin: 0;
+	padding: 10px;
+	min-width: 1000px;
+ }
+/** main box */
+ #mainbox {
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 50px;
+ 	width:550px;
+	/**height:200px; */
+ }
+/** links */
+
+ #mainboxpic {
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 50px;
+
+ }
+
+
+ a {
+ 	text-align: center;
+ 	background-color: white;
+ 	color: black;
+ }
+ /** Website Logo */
+ div#title img#logo{
+	float: left;
+ }
+ /** Website Header Text*/
+ div#title strong{
+	font-family: Sans-Serif;
+	font-size: 28pt;
+	display: inline-block;
+	/* margin-left: 25%;*/
+	margin-left: -200px;
+	margin-top: 50px;
+ }
+ 
+ /** Links in upper-corner of the website */
+ div#sitelinks{
+	padding: 0;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 210px;
+ }
+ div#sitelinks ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+ }
+ div#sitelinks ul li{
+	display: inline-block;
+ }
+ div#sitelinks a:link, div#sitelinks a:visited{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 10px;
+	
+	display: inline-block;
+	width: 5em;
+	text-align: center;
+ }
+ div#sitelinks a.active, div#sitelinks a:hover{
+	background-color: white;
+	color: black;
+ }
+ 
+ /** Search Box */
+ div#search{
+	width: 90%;
+	margin: 10px auto;
+	padding: 5px;
+	color: white;
+ }
+ form#searchForm{
+	display: inline-block;
+ }
+ /** Table */
+ table#userlist{
+	border: 1px solid black;
+	background-color: #1F1AB2;
+	margin: 0 auto;
+	width: 90%;
+	margin-bottom: 10px;
+ }
+ table#userlist td{
+	padding: 0 10px;
+	border: 1px solid black;
+ }
+ table#userlist th{
+ 	padding: 0 10px;
+	border: 1px solid black;
+	cursor: pointer;
+	cursor: hand;
+ }
+
+ table#header {
+	font-family: Georgia, Courier, Verdana, sans-serif;
+	text-decoration: none;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: center;
+ }
+
+table#header th {
+		background-color: #fff000;
+		width:auto;
+	}
+
+h1 {
+
+	color: white;
+	text-align: center;
+}
